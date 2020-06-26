@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/PokemonListFragment">
+
+    <fragment
+        android:id="@+id/PokemonListFragment"
+        android:name="com.luisfacunat.pokedex.PokemonListFragment"
+        android:label="@string/pokemon_list_fragment_label"
+        tools:layout="@layout/fragment_pokemon_list">
+
+        <action
+            android:id="@+id/action_PokemonListFragment_to_PokemonSingleFragment"
+            app:destination="@id/PokemonSingleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/PokemonSingleFragment"
+        android:name="com.luisfacunat.pokedex.PokemonSingleFragment"
+        android:label="@string/pokemon_single_fragment_label"
+        tools:layout="@layout/fragment_pokemon_single">
+
+    </fragment>
+</navigation>

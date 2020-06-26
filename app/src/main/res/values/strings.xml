@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Pokédex</string>
+
+    <!-- Navigation Strings -->
+    <string name="pokemon_list_fragment_label">First Fragment</string>
+    <string name="pokemon_single_fragment_label">Second Fragment</string>
+
+    <!-- Pokemon List Strings -->
+    <string name="pokemon_item_more">Read More</string>
+
+    <!-- Pokémon Single Strings -->
+    <string name="pokemon_single_title">Pokémon Data</string>
+    <string name="pokemon_single_pokemon_name">Pokémon</string>
+    <string name="pokemon_single_number">001</string>
+    <string name="pokemon_single_weight_title">Weight</string>
+    <string name="pokemon_single_height_title">Height</string>
+    <string name="pokemon_single_height">height</string>
+    <string name="pokemon_single_weight">weight</string>
+    <string name="pokemon_single_experience_title">Base Experience</string>
+    <string name="pokemon_single_experience">base experience</string>
+
+</resources>
